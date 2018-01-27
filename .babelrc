@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["next/babel", {
+      "styled-jsx": {
+        "plugins": [
+          "styled-jsx-plugin-postcss"
+        ]
+      }
+    }],
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": [
+    "transform-decorators-legacy"
+  ]
+}
