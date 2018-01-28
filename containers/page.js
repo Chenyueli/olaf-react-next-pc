@@ -58,7 +58,8 @@ class Page extends React.Component {
                 lost-column: 4/6;
                 text-align: center;
                 .logo {
-                  
+                  width: 438px;
+                  height: 512px;
                 }
                 h2 {
                   color: #fff;

@@ -10,7 +10,7 @@ const env = process.env.NODE_ENV ? process.env.NODE_ENV : 'development';
 const prefix = config[env].staticUrl;
 const now = Date.now();
 
-const project = 'olaf-react-next-pc';
+// const project = 'olaf-react-next-pc'; // 可以直接加到前缀当中，olaf-cli初始化项目时直接替换
 
 const paths = {
   server: 'server/**/*.js',
@@ -35,7 +35,7 @@ gulp.task('watch_server', () => {
 
 gulp.task('nodemon', ['watch_server'], () =>
   plugins.nodemon({
-    script: 'www',
+    script: './app/index',
     ext: 'js',
     watch: 'server',
     tasks: ['babel']
@@ -52,6 +52,7 @@ gulp.task('next', () => {
 });
 
 function performChange(content) {
+  let res = content;
   const assetSrcArr = content.match(/['"]\/static\/cdn.+?['"]/g);
   if (!assetSrcArr) {
     return false;

@@ -23,14 +23,8 @@
     "lint:watch": "yarn lint --watch",
     "precommit": "yarn lint && yarn test",
     "test": "NODE_ENV=test jest --forceExit --verbose",
-    "test:unit": "npm test -- server/test/unit",
-    "test:integration": "npm test -- server/test/integration",
     "test:watch": "npm test -- --watch",
-    "test:watch:unit": "npm run test:unit -- --watch",
-    "test:watch:integration": "npm run test:integration -- --watch",
-    "test:coverage": "npm test -- --coverage",
-    "test:coverage:unit": "npm run test:unit -- --coverage",
-    "test:coverage:integration": "npm run test:integration -- --coverage"
+    "test:coverage": "npm test -- --coverage"
   },
   "repository": {
     "type": "git",
