@@ -1,6 +1,6 @@
 {
   "name": "olaf-react-next-pc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "olaf-template-author",
   "description": "olaf-template-description",
   "main": "app.js",
@@ -17,12 +17,12 @@
     "next:start": "next start",
     "build:test": "cross-env NODE_ENV=test cleandir node_modules/.cache/ && next build && gulp next",
     "build:prod": "cross-env NODE_ENV=production cleandir node_modules/.cache/ && next build && gulp next",
-    "product": "cross-env NODE_ENV=production node www",
+    "product": "cross-env NODE_ENV=production node server/index",
     "rm:cache": "cleandir node_modules/.cache",
     "lint": "esw *.js server config --color",
     "lint:watch": "yarn lint --watch",
     "precommit": "yarn lint && yarn test",
-    "test": "cross-env NODE_ENV=test jest --forceExit --verbose",
+    "test": "cross-env NODE_ENV=test jest server/test --forceExit --verbose",
     "test:watch": "npm test -- --watch",
     "test:coverage": "npm test -- --coverage"
   },

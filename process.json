@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "olaf-react-next-pc",
-      "script": "server",
+      "script": "./app/index.js",
       "watch": true,
       "node_args": "--harmony",
       "merge_logs": false,
