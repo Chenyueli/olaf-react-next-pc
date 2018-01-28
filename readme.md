@@ -1,7 +1,7 @@
 ![](https://github.com/Gavin1995/olaf-react-next-pc/blob/master/static/cdn/img/logo-green.png)
 
 # Olaf PC
-企业级前后端集成解决方案
+Olaf(奥拉夫)：企业级前后端集成解决方案
 
 ## 特性
 ### **前后端开箱即用**
@@ -28,7 +28,7 @@
 > git clone git@github.com:Gavin1995/olaf-react-next-pc.git
 > npm install
 ```
-### 也可以使用olaf-cli
+### 也可以使用[olaf-cli](https://github.com/Gavin1995/olaf-cli)
 ```bash
 > olaf i
 ```
