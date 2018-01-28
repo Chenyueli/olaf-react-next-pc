@@ -1,12 +1,12 @@
 {
   "name": "olaf-react-next-pc",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "olaf-template-author",
   "description": "olaf-template-description",
   "main": "app.js",
   "private": false,
   "engines": {
-    "node": ">=6.9.0",
+    "node": ">=7.6.0",
     "npm": ">=3.0.0",
     "yarn": ">=0.20.0"
   },
@@ -22,7 +22,7 @@
     "lint": "esw *.js server config --color",
     "lint:watch": "yarn lint --watch",
     "precommit": "yarn lint && yarn test",
-    "test": "NODE_ENV=test jest --forceExit --verbose",
+    "test": "cross-env NODE_ENV=test jest --forceExit --verbose",
     "test:watch": "npm test -- --watch",
     "test:coverage": "npm test -- --coverage"
   },
@@ -38,9 +38,8 @@
     "node",
     "es6",
     "immutable",
-    "mocha",
-    "istanbul",
-    "REST"
+    "koa",
+    "jest"
   ],
   "dependencies": {
     "chalk": "^2.3.0",
