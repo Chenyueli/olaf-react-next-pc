@@ -1,7 +1,7 @@
 ![](https://github.com/Gavin1995/olaf-react-next-pc/blob/master/static/cdn/img/logo-green.png)
 
 [![repo size](https://img.shields.io/github/repo-size/Gavin1995/olaf-react-next-pc.svg)](https://github.com/Gavin1995/olaf-react-next-pc)
-[![license](https://img.shields.io/github/license/Gavin1995/olaf-cli.svg)](https://github.com/Gavin1995/olaf-cli)
+[![license](https://img.shields.io/github/license/Gavin1995/olaf-react-next-pc.svg)](https://github.com/Gavin1995/olaf-react-next-pc)
 
 # Olaf PC
 Olaf(奥拉夫)：企业级前后端集成解决方案
